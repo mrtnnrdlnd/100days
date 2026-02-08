@@ -1,1 +1,0 @@
-import{r as l}from"./BrAZZrv6.js";function a(o,r){const i=o.filter(e=>e!=null&&!isNaN(e));if(i.length===0)return null;const t=l.getStat(r);return!t&&l.getAllStats().length===0&&console.error("[Statistics] Registry is empty! Did you forget to call initCore() in App.svelte?"),t?t.calculate(i):(console.warn(`[Statistics] No strategy found for mode: ${r}`),0)}export{a as c};
