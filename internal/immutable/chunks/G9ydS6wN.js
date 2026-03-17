@@ -1,1 +1,0 @@
-import{h as b,i as h,q as t,b as S,S as k}from"./CqIgeCUN.js";function u(r,i){return r===i||r?.[k]===i}function c(r={},i,a,q){return b(()=>{var f,s;return h(()=>{f=s,s=[],S(()=>{r!==a(...s)&&(i(r,...s),f&&u(a(...f),r)&&i(null,...f))})}),()=>{t(()=>{s&&u(a(...s),r)&&i(null,...s)})}}),r}export{c as b};
